@@ -41,8 +41,8 @@ build_architecture() {
 
     # One deno and one denort per architecture for every suite: upstream ships
     # one binary each, so only the old ~<suite> version suffix ever differed.
-    # The fixed ~griffo keeps them below the distro's own build of the version.
-    FULL_VERSION="$DENO_VERSION-${BUILD_VERSION}~griffo_${build_arch}"
+    # The fixed ~gaofn keeps them below the distro's own build of the version.
+    FULL_VERSION="$DENO_VERSION-${BUILD_VERSION}~gaofn_${build_arch}"
     echo "  Building deno $FULL_VERSION"
 
     rm -f deno "deno-${release_arch}.zip"
